@@ -1,2 +1,1 @@
-# 3d-print
-3D Print
+# 3D Print
