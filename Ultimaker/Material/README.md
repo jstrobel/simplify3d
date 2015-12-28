@@ -6,5 +6,7 @@ Put your SD-Card into the Ultimaker and enter:
 Material -> Settings -> Import from SD
 
 Feel free, to add more or leave me a message when you improved the settings.
+Names can only have 8 Characters to save memory in the firmware:
+https://github.com/jstrobel/3d-print/tree/master/Ultimaker/Material
 
 __HINT: Some settings are work in progess, please test it with your printer before.__
