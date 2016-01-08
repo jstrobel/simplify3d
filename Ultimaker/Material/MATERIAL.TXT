@@ -36,15 +36,6 @@ diameter=2.85
 
 ; ColorFabb
 [material]
-name=XT
-temperature=240
-bed_temperature=0
-fan_speed=50
-flow=100
-diameter=2.85
-
-; ColorFabb
-[material]
 name=Woodfill
 temperature=210
 bed_temperature=55
