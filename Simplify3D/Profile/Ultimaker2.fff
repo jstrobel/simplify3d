@@ -214,8 +214,8 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ColorFabb nGen">
-    <globalExtruderTemperature>230</globalExtruderTemperature>
-    <globalBedTemperature>80</globalBedTemperature>
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>85</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
