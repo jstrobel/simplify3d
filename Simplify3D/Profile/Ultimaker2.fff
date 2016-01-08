@@ -187,7 +187,7 @@
   <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
-    <globalExtruderTemperature>205</globalExtruderTemperature>
+    <globalExtruderTemperature>210</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
@@ -196,30 +196,59 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
+    <globalExtruderTemperature>260</globalExtruderTemperature>
+    <globalBedTemperature>90</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="CPE">
+    <globalExtruderTemperature>250</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="ColorFabb nGen">
     <globalExtruderTemperature>230</globalExtruderTemperature>
-    <globalBedTemperature>100</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
-  <autoConfigureMaterial name="PVA">
-    <globalExtruderTemperature>195</globalExtruderTemperature>
     <globalBedTemperature>80</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="2" speed="50"/>
     </fanSpeed>
   </autoConfigureMaterial>
-  <autoConfigureMaterial name="Nylon">
-    <globalExtruderTemperature>220</globalExtruderTemperature>
-    <globalBedTemperature>80</globalBedTemperature>
+  <autoConfigureMaterial name="ColorFabb XT">
+    <globalExtruderTemperature>250</globalExtruderTemperature>
+    <globalBedTemperature>70</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
     </fanSpeed>
-  </autoConfigureMaterial>
+  </autoConfigureMaterial>  
+  <autoConfigureMaterial name="ColorFabb Woodfill">
+    <globalExtruderTemperature>210</globalExtruderTemperature>
+    <globalBedTemperature>55</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>  
+  <autoConfigureMaterial name="NinjaFlex">
+    <globalExtruderTemperature>225</globalExtruderTemperature>
+    <globalBedTemperature>40</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>    
   <autoConfigureQuality name="Fast">
     <layerHeight>0.25</layerHeight>
     <topSolidLayers>3</topSolidLayers>
