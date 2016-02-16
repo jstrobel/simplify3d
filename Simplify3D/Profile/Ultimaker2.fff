@@ -188,7 +188,7 @@
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
     <globalExtruderTemperature>210</globalExtruderTemperature>
-    <globalBedTemperature>60</globalBedTemperature>
+    <globalBedTemperature>65</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
